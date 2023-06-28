@@ -202,7 +202,7 @@
 <wire x1="30.48" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="2.413" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="center">v10</text>
 <dimension x1="2.54" y1="22.86" x2="27.94" y2="22.86" x3="15.24" y3="31.75" textsize="1.27" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="25.4" x2="0" y2="0" x3="-8.89" y3="12.7" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="0" y2="0" x3="-16.51" y3="12.7" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <circle x="3.683" y="18.669" radius="0.127" width="0.254" layer="21"/>
 <circle x="3.683" y="18.669" radius="0.523634375" width="0.1778" layer="21"/>
 <circle x="3.683" y="18.669" radius="0.523634375" width="0.1778" layer="22"/>
@@ -240,34 +240,21 @@
 <wire x1="3.038975" y1="19.38741875" x2="3.308384375" y2="19.297615625" width="0.1778" layer="22"/>
 <wire x1="7.62" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="22"/>
 <text x="17.78" y="-7.62" size="1.778" layer="51" font="vector">N. Seidle</text>
-<dimension x1="6.35" y1="1.27" x2="6.35" y2="24.13" x3="-3.81" y3="12.7" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="6.35" y1="1.27" x2="6.35" y2="24.13" x3="-11.43" y3="12.7" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="8.89" y1="19.05" x2="8.89" y2="24.13" x3="-1.27" y3="21.59" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <text x="17.78" y="-10.16" size="1.778" layer="51" font="vector">A. England</text>
-<dimension x1="0" y1="25.4" x2="30.48" y2="25.4" x3="15.24" y3="35.56" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="30.48" y2="25.4" x3="15.24" y3="35.56" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <text x="47.498" y="44.069" size="1.778" layer="51" font="vector" align="top-left">Soldermask: Red
 Thickness: 1.6mm
 2-Layer Design
 1oz copper
 Finish: HASL</text>
+<text x="0" y="41.91" size="1.778" layer="100" font="vector" ratio="15">Measure Units: INCHES</text>
+<dimension x1="30.48" y1="0" x2="25.4" y2="12.7" x3="34.29" y3="6.35" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="30.48" y1="0" x2="27.559" y2="18.288" x3="38.1" y3="9.144" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="5.08" y2="12.7" x3="-7.62" y3="6.35" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 </plain>
 <libraries>
-<library name="SparkFun">
-<packages>
-<package name="STAND-OFF">
-<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.302"/>
-</package>
-<package name="MICRO-FIDUCIAL">
-<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Resistors">
 <description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
 This library contains resistors. Reference designator:R. 
@@ -360,54 +347,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </packageinstances>
 </package3d>
 </packages3d>
-</library>
-<library name="SparkX">
-<packages>
-<package name="1X04_1MM_RA">
-<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="1X04_NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole - 4 Pin No Silk Outline&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-</packages>
 </library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
@@ -1925,6 +1864,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
 <text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
 </package>
+<package name="FIDUCIAL-MICRO">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Capacitors">
@@ -2057,6 +2003,50 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.143" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+<package name="JST04_1MM_RA">
+<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.2032" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1016" width="0.2032" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="1X04_NO_SILK">
+<description>&lt;h3&gt;Plated Through Hole - 4 Pin No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -9928,6 +9918,37 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Hardware">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="STAND-OFF">
+<description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.302"/>
+<text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10117,18 +10138,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </pass>
 </autorouter>
 <elements>
-<element name="JP3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="22.86" smashed="yes"/>
-<element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="27.94" y="22.86" smashed="yes"/>
-<element name="JP2" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="29.591" y="0.889" smashed="yes"/>
-<element name="JP6" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="0.762" y="24.638" smashed="yes"/>
-<element name="J2" library="SparkX" package="1X04_1MM_RA" value="SMD" x="5.08" y="12.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="2.921" y="14.097" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="VALUE" x="1.778" y="14.351" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
-</element>
-<element name="J3" library="SparkX" package="1X04_NO_SILK" value="PTH" x="11.43" y="1.27" smashed="yes">
-<attribute name="NAME" x="10.16" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="10.16" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
-</element>
+<element name="JP3" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="2.54" y="22.86" smashed="yes"/>
+<element name="JP4" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="27.94" y="22.86" smashed="yes"/>
+<element name="JP2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="29.591" y="0.889" smashed="yes"/>
+<element name="JP6" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.762" y="24.638" smashed="yes"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-12.7" y="-7.62" smashed="yes">
 <attribute name="DESIGNER" value="" x="-12.7" y="-7.62" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="" x="-12.7" y="-7.62" size="1.778" layer="27" display="off"/>
@@ -10137,10 +10150,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="NAME" x="14.986" y="7.62" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="14.224" y="7.62" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="13.462" y="7.62" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
-</element>
-<element name="J4" library="SparkX" package="1X04_1MM_RA" value="SMD" x="25.4" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.559" y="11.303" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="28.702" y="11.049" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="27.94" y="2.54" smashed="yes" rot="MR0"/>
 <element name="U2" library="SparkFun-IC-Special-Function" package="LGA-28" value="BNO080" x="15.24" y="12.7" smashed="yes" rot="R90">
@@ -10182,11 +10191,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-00824" x="8.509" y="7.62" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="9.271" y="7.62" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="SJ3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="" x="6.35" y="6.35" smashed="yes" rot="MR180">
+<element name="PS0" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="" x="6.35" y="6.35" smashed="yes" rot="MR180">
 <attribute name="NAME" x="5.442" y="5.08" size="0.4064" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="5.442" y="8.001" size="0.4064" layer="28" rot="MR180"/>
 </element>
-<element name="SJ4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="" x="6.35" y="8.89" smashed="yes" rot="MR180">
+<element name="PS1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="" x="6.35" y="8.89" smashed="yes" rot="MR180">
 <attribute name="NAME" x="5.442" y="7.62" size="0.4064" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="5.442" y="10.541" size="0.4064" layer="28" rot="MR180"/>
 </element>
@@ -10215,7 +10224,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-08272" x="26.67" y="2.54" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="26.67" y="1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="SJ1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_PASTE_SILK" package3d_urn="urn:adsk.eagle:package:39294/1" value="JUMPER-SMT_3_2-NC_PASTE_SILK" x="26.67" y="5.08" smashed="yes" rot="R270">
+<element name="I2C" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_PASTE_SILK" package3d_urn="urn:adsk.eagle:package:39294/1" value="" x="26.67" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.813" y="5.08" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="25.527" y="5.08" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
@@ -10258,19 +10267,18 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="19.431" y="11.049" smashed="yes"/>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="15.181578125" y="7.642859375" smashed="yes" rot="MR0"/>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="27.559" y="18.288" smashed="yes" rot="R270">
+<element name="PWR" library="SparkFun-LED" package="LED-0603" value="RED" x="27.559" y="18.288" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.194" y="18.288" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00819" x="27.559" y="18.288" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="26.924" y="18.288" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-17976" x="27.559" y="18.288" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="1k" x="29.083" y="18.288" smashed="yes" rot="R270">
+<element name="R2" library="SparkFun-Resistors" package="0603" value="4.7k" x="29.083" y="18.288" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.845" y="18.288" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07856" x="29.083" y="18.288" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="28.321" y="18.288" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="RES-07857" x="29.083" y="18.288" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="4.7k" x="28.321" y="18.288" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="-1.27" y="-10.16" smashed="yes"/>
-<element name="JP1" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="29.591" y="0.889" smashed="yes" rot="MR0"/>
-<element name="JP5" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="0.762" y="24.638" smashed="yes" rot="MR0"/>
+<element name="JP1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="29.591" y="0.889" smashed="yes" rot="MR0"/>
+<element name="JP5" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.762" y="24.638" smashed="yes" rot="MR0"/>
 <element name="U$24" library="output" package="BNO0861" value="" x="2.547621875" y="3.58901875" smashed="yes" rot="R90"/>
 <element name="U$31" library="output" package="IMU862" value="" x="3.7846" y="3.571240625" smashed="yes" rot="R90"/>
 <element name="U$32" library="output" package="#GND#864" value="" x="6.370321875" y="21.63571875" smashed="yes" rot="R90"/>
@@ -10327,24 +10335,35 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$4" library="output" package="##INT##6" value="" x="24.102059375" y="3.4544" smashed="yes" rot="MR90"/>
 <element name="U$16" library="output" package="#GND#2" value="" x="6.37031875" y="21.7271625" smashed="yes" rot="MR90"/>
 <element name="U$59" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="45.72" y="54.61" smashed="yes"/>
+<element name="J4" library="SparkFun-Connectors" package="JST04_1MM_RA" value="SMD" x="25.4" y="12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.559" y="11.303" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PROD_ID" value="CONN-13694" x="25.4" y="12.7" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="VALUE" x="28.702" y="11.049" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="J2" library="SparkFun-Connectors" package="JST04_1MM_RA" value="SMD" x="5.08" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.921" y="14.097" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-13694" x="5.08" y="12.7" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" x="1.778" y="14.351" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="J3" library="SparkFun-Connectors" package="1X04_NO_SILK" value="PTH" x="11.43" y="1.27" smashed="yes">
+<attribute name="NAME" x="10.16" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="10.16" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
 </elements>
 <signals>
 <signal name="3.3V">
-<contactref element="J2" pad="2"/>
-<contactref element="J3" pad="2"/>
 <contactref element="C4" pad="1"/>
-<contactref element="J4" pad="2"/>
 <contactref element="R1" pad="2"/>
 <contactref element="U2" pad="3"/>
 <contactref element="U2" pad="28"/>
 <contactref element="R3" pad="2"/>
 <contactref element="R6" pad="2"/>
-<contactref element="SJ3" pad="1"/>
-<contactref element="SJ4" pad="1"/>
+<contactref element="PS0" pad="1"/>
+<contactref element="PS1" pad="1"/>
 <contactref element="R9" pad="2"/>
 <contactref element="R10" pad="2"/>
 <contactref element="C2" pad="1"/>
-<contactref element="SJ1" pad="2"/>
+<contactref element="I2C" pad="2"/>
 <contactref element="J6" pad="2"/>
 <wire x1="12.84" y1="12.95" x2="11.434" y2="12.95" width="0.1524" layer="1"/>
 <wire x1="11.434" y1="12.95" x2="10.834" y2="13.55" width="0.1524" layer="1"/>
@@ -10401,7 +10420,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="12.84" y1="12.95" x2="13.966" y2="12.95" width="0.1524" layer="1"/>
 <wire x1="13.966" y1="12.95" x2="13.97" y2="12.954" width="0.1524" layer="1"/>
 <wire x1="13.97" y1="12.065" x2="13.97" y2="10.541" width="0.1524" layer="16"/>
-<contactref element="D1" pad="A"/>
+<contactref element="PWR" pad="A"/>
 <wire x1="23.757" y1="12.2" x2="23.749" y2="12.192" width="0.1524" layer="1"/>
 <via x="23.749" y="12.192" extent="1-16" drill="0.3048"/>
 <wire x1="23.749" y1="12.192" x2="24.892" y2="12.192" width="0.1524" layer="16"/>
@@ -10412,6 +10431,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="27.559" y1="19.165" x2="25.896" y2="19.165" width="0.1524" layer="1"/>
 <wire x1="25.896" y1="19.165" x2="25.4" y2="18.669" width="0.1524" layer="1"/>
 <wire x1="25.4" y1="18.669" x2="25.4" y2="15.24" width="0.1524" layer="1"/>
+<contactref element="J4" pad="2"/>
+<contactref element="J2" pad="2"/>
+<contactref element="J3" pad="2"/>
 </signal>
 <signal name="GND">
 <polygon width="0.254" layer="16" isolate="0.3048">
@@ -10426,10 +10448,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="30.48" y="25.4"/>
 <vertex x="30.48" y="0"/>
 </polygon>
-<contactref element="J2" pad="1"/>
-<contactref element="J3" pad="1"/>
 <contactref element="C4" pad="2"/>
-<contactref element="J4" pad="1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="U2" pad="2"/>
 <contactref element="U2" pad="25"/>
@@ -10460,6 +10479,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="14.99" y1="11" x2="14.99" y2="14.4" width="0.1524" layer="1"/>
 <contactref element="R2" pad="1"/>
 <via x="29.21" y="20.32" extent="1-16" drill="0.3048"/>
+<contactref element="J4" pad="1"/>
+<contactref element="J2" pad="1"/>
+<contactref element="J3" pad="1"/>
 </signal>
 <signal name="CAP">
 <contactref element="U2" pad="9"/>
@@ -10505,7 +10527,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <signal name="PS0/WAKE">
 <contactref element="U2" pad="6"/>
 <contactref element="R7" pad="2"/>
-<contactref element="SJ3" pad="2"/>
+<contactref element="PS0" pad="2"/>
 <contactref element="J6" pad="7"/>
 <wire x1="12.99" y1="11" x2="11.762" y2="11" width="0.1524" layer="1"/>
 <wire x1="11.762" y1="11" x2="10.414" y2="9.652" width="0.1524" layer="1"/>
@@ -10529,7 +10551,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <signal name="PS1">
 <contactref element="U2" pad="5"/>
 <contactref element="R8" pad="2"/>
-<contactref element="SJ4" pad="2"/>
+<contactref element="PS1" pad="2"/>
 <wire x1="12.84" y1="11.95" x2="11.696" y2="11.95" width="0.1524" layer="1"/>
 <wire x1="11.696" y1="11.95" x2="10.16" y2="10.414" width="0.1524" layer="1"/>
 <wire x1="6.7564" y1="8.89" x2="7.239" y2="8.89" width="0.1524" layer="16"/>
@@ -10575,9 +10597,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </signal>
 <signal name="SCL/SCK/RX">
 <contactref element="U2" pad="19"/>
-<contactref element="J2" pad="4"/>
-<contactref element="J3" pad="4"/>
-<contactref element="J4" pad="4"/>
 <contactref element="R12" pad="1"/>
 <contactref element="J6" pad="3"/>
 <wire x1="17.64" y1="13.45" x2="18.53" y2="13.45" width="0.1524" layer="1"/>
@@ -10613,12 +10632,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="25.82" y1="9.486" x2="25.781" y2="9.525" width="0.1524" layer="1"/>
 <wire x1="24.13" y1="6.35" x2="24.13" y2="8.89" width="0.1524" layer="1"/>
 <wire x1="24.13" y1="8.89" x2="24.765" y2="9.525" width="0.1524" layer="1"/>
+<contactref element="J4" pad="4"/>
+<contactref element="J2" pad="4"/>
+<contactref element="J3" pad="4"/>
 </signal>
 <signal name="SDA/MISO/TX">
 <contactref element="U2" pad="20"/>
-<contactref element="J2" pad="3"/>
-<contactref element="J3" pad="3"/>
-<contactref element="J4" pad="3"/>
 <contactref element="R13" pad="1"/>
 <contactref element="J6" pad="4"/>
 <wire x1="5.08" y1="12.2" x2="7.12" y2="12.2" width="0.1524" layer="1"/>
@@ -10655,6 +10674,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="22.225" y1="10.795" x2="20.955" y2="10.795" width="0.1524" layer="16"/>
 <wire x1="20.955" y1="10.795" x2="20.32" y2="10.16" width="0.1524" layer="16"/>
 <wire x1="20.32" y1="10.16" x2="20.32" y2="3.81" width="0.1524" layer="16"/>
+<contactref element="J4" pad="3"/>
+<contactref element="J2" pad="3"/>
+<contactref element="J3" pad="3"/>
 </signal>
 <signal name="S_SDA">
 <contactref element="U2" pad="16"/>
@@ -10671,14 +10693,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="18.034" y1="9.525" x2="18.034" y2="8.47" width="0.1524" layer="1"/>
 </signal>
 <signal name="SCL_PU">
-<contactref element="SJ1" pad="1"/>
+<contactref element="I2C" pad="1"/>
 <contactref element="R12" pad="2"/>
 <wire x1="26.67" y1="5.8928" x2="26.67" y2="6.477" width="0.1524" layer="1"/>
 <wire x1="27.52" y1="7.62" x2="27.52" y2="7.327" width="0.1524" layer="1"/>
 <wire x1="27.52" y1="7.327" x2="26.67" y2="6.477" width="0.1524" layer="1"/>
 </signal>
 <signal name="SDA_PU">
-<contactref element="SJ1" pad="3"/>
+<contactref element="I2C" pad="3"/>
 <contactref element="R13" pad="2"/>
 <wire x1="26.67" y1="4.2672" x2="26.67" y2="3.683" width="0.1524" layer="1"/>
 <wire x1="27.52" y1="2.54" x2="27.52" y2="2.833" width="0.1524" layer="1"/>
@@ -10731,7 +10753,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="15.24" y1="16.51" x2="16.49" y2="16.51" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="D1" pad="C"/>
+<contactref element="PWR" pad="C"/>
 <contactref element="R2" pad="2"/>
 <wire x1="27.559" y1="17.411" x2="29.056" y2="17.411" width="0.1524" layer="1"/>
 <wire x1="29.056" y1="17.411" x2="29.083" y2="17.438" width="0.1524" layer="1"/>
