@@ -27792,7 +27792,7 @@ SPI</text>
 <text x="220.98" y="83.82" size="3.81" layer="94" font="vector" align="center">UART</text>
 <text x="170.18" y="83.82" size="3.81" layer="94" font="vector" align="center">SPI</text>
 <text x="39.878" y="85.852" size="2.54" layer="94" font="vector" align="center">2</text>
-<wire x1="0" y1="91.44" x2="93.98" y2="91.44" width="0.2032" layer="97"/>
+<wire x1="0" y1="91.44" x2="93.98" y2="91.44" width="0.2032" layer="97" style="longdash"/>
 <wire x1="93.98" y1="91.44" x2="147.32" y2="91.44" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="91.44" x2="193.04" y2="91.44" width="0.2032" layer="97" style="longdash"/>
 <wire x1="193.04" y1="91.44" x2="248.92" y2="91.44" width="0.2032" layer="97" style="longdash"/>
