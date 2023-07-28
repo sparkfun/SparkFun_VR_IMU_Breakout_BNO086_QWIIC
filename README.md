@@ -11,7 +11,7 @@ The BNO086 IMU has a combination triple axis accelerometer/gyro/magnetometer pac
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
+* **/Documentation** - Datasheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
   * **/Production** - Production panel files (.brd)
  
@@ -36,3 +36,9 @@ This product is _**open source**_!
 Please review the LICENSE.md file for license information. 
 
 If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
+
+_<COLLABORATION CREDIT>_
