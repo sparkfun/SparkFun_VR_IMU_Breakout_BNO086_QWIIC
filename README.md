@@ -18,7 +18,7 @@ Repository Contents
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_BNO08x_Arduino_Library)** - Arduino library for the BNO086 and variants BNO08X.
-* **[Hookup Guide]()** - Basic hookup guide for the SparkFun VR IMU Breakout - BNO086.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_VR_IMU_Breakout_BNO086_QWIIC/introduction/)** - Basic hookup guide for the SparkFun VR IMU Breakout - BNO086.
 
 Product Versions
 ----------------
