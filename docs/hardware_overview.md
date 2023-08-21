@@ -2,8 +2,8 @@ Let's look over a few characteristics of the BNO086 sensor so we know a bit more
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-IC.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-IC.jpg" width="600" height="600" alt="BNO086 Highlighted"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-IC.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-IC.jpg" width="600" height="600" alt="BNO086 Highlighted"></a></td>
     </tr>
   </table>
 </div>
@@ -31,9 +31,9 @@ Let's look over a few characteristics of the BNO086 sensor so we know a bit more
     Keep in mind the location of the labels on the top and bottom of the board. When rotating the board about the x-axis to view the bottom labels, you will notice that the letters are not right side up. You will need to rotate the board about the y-axis to view the letters.
     <div style="text-align: center;">
       <table>
-        <tr align="center">
-         <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-top.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-top.jpg" width="600" height="600" alt=""></a></td>
-         <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-bottom.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-bottom.jpg" width="600" height="600" alt=""></a></td>
+        <tr style="vertical-align:middle;">
+         <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-top.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-top.jpg" width="600" height="600" alt=""></a></td>
+         <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-bottom.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-bottom.jpg" width="600" height="600" alt=""></a></td>
         </tr>
       </table>
     </div>
@@ -46,8 +46,8 @@ The operating voltage is between 2.4V-3.6V (note that V<sub>DDIO</sub> and V<sub
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-3.3V_Power_Ground_Nets.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-3.3V_Power_Ground_Nets.jpg" width="600" height="600" alt="3.3V Power and Ground Nets"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-3.3V_Power_Ground_Nets.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-3.3V_Power_Ground_Nets.jpg" width="600" height="600" alt="3.3V Power and Ground Nets"></a></td>
     </tr>
   </table>
 </div>
@@ -60,8 +60,8 @@ The board includes two Qwiic connectors on each side of the board. For users tha
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic_Connector_PTH_I2C.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic_Connector_PTH_I2C.jpg" width="600" height="600" alt="I2C Qwiic Connectors and PTH"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic_Connector_PTH_I2C.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic_Connector_PTH_I2C.jpg" width="600" height="600" alt="I2C Qwiic Connectors and PTH"></a></td>
     </tr>
   </table>
 </div>
@@ -84,8 +84,8 @@ A few of the SPI pins have more than one function. We'll focus on the four SPI p
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-SPI.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-SPI.jpg" width="600" height="600" alt="SPI"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-SPI.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-SPI.jpg" width="600" height="600" alt="SPI"></a></td>
     </tr>
   </table>
 </div>
@@ -109,8 +109,8 @@ In the middle of the board, are the serial UART pins. You can also use the UART 
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Serial_UART.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Serial_UART.jpg" width="600" height="600" alt="Serial UART"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Serial_UART.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Serial_UART.jpg" width="600" height="600" alt="Serial UART"></a></td>
     </tr>
   </table>
 </div>
@@ -126,9 +126,9 @@ For easy reference, we've documented the IMU's vectors with 3D Cartesian coordin
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Reference_Axis_Top.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Reference_Axis_Top.jpg" width="600" height="600" alt="Reference Axis on the Top Side"></a></td>
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Reference_Axis_Bottom.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Reference_Axis_Bottom.jpg" width="600" height="600" alt="Reference Axis on the Bottom Side"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Reference_Axis_Top.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Reference_Axis_Top.jpg" width="600" height="600" alt="Reference Axis on the Top Side"></a></td>
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Reference_Axis_Bottom.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Reference_Axis_Bottom.jpg" width="600" height="600" alt="Reference Axis on the Bottom Side"></a></td>
     </tr>
   </table>
 </div>
@@ -141,8 +141,8 @@ There is one LED on the board. The LED lights up when the board is powered with 
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-LED.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-LED.jpg" width="600" height="600" alt="LED"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-LED.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-LED.jpg" width="600" height="600" alt="LED"></a></td>
     </tr>
   </table>
 </div>
@@ -160,8 +160,8 @@ Below are some additional pins that are broken out for the BNO086.
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Miscellaneous_Pins.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Miscellaneous_Pins.jpg" width="600" height="600" alt="Miscellaneous Pins"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Miscellaneous_Pins.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Miscellaneous_Pins.jpg" width="600" height="600" alt="Miscellaneous Pins"></a></td>
     </tr>
   </table>
 </div>
@@ -180,9 +180,9 @@ There are a few jumper pads available on the top and bottom of the board. Most o
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Jumpers-Top.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Jumpers-Top.jpg" width="600" height="600" alt="Jumpers on Top Side"></a></td>
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Jumpers-Back.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Jumpers-Back.jpg" width="600" height="600" alt="Jumpers on Bottom Side"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Jumpers-Top.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Jumpers-Top.jpg" width="600" height="600" alt="Jumpers on Top Side"></a></td>
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Jumpers-Back.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic-Jumpers-Back.jpg" width="600" height="600" alt="Jumpers on Bottom Side"></a></td>
     </tr>
   </table>
 </div>
@@ -242,8 +242,8 @@ The board is 1.0" x 1.2" (25.4mm x 30.48mm), which is slightly longer than a typ
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/SparkFun_VR_IMU_Breakout_BNO086_Qwiic_Board_Dimension_v10.png"><img src="../assets/img/SparkFun_VR_IMU_Breakout_BNO086_Qwiic_Board_Dimension_v10.png" width="600" height="600" alt="Board Dimesions"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/SparkFun_VR_IMU_Breakout_BNO086_Qwiic_Board_Dimension_v10.png"><img src="../assets/img/SparkFun_VR_IMU_Breakout_BNO086_Qwiic_Board_Dimension_v10.png" width="600" height="600" alt="Board Dimesions"></a></td>
     </tr>
   </table>
 </div>

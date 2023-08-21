@@ -14,8 +14,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex1_Rotation_Vector_MOD.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex1_Rotation_Vector_MOD.JPG" width="600" height="600" alt="Output Modified Example 1 - Rotation Vector for Processing Example"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex1_Rotation_Vector_MOD.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex1_Rotation_Vector_MOD.JPG" width="600" height="600" alt="Output Modified Example 1 - Rotation Vector for Processing Example"></a></td>
     </tr>
   </table>
 </div>
@@ -36,8 +36,8 @@ Identify which serial port your Arduino is on. For instance, my RedBoard IoT - E
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Processing_Serial_Port_Connections.JPG"><img src="../assets/img/VR_IMU-BNO086_Processing_Serial_Port_Connections.JPG" width="600" height="600" alt="Adjusting Processing Example's Serial Port"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Processing_Serial_Port_Connections.JPG"><img src="../assets/img/VR_IMU-BNO086_Processing_Serial_Port_Connections.JPG" width="600" height="600" alt="Adjusting Processing Example's Serial Port"></a></td>
     </tr>
   </table>
 </div>
@@ -46,8 +46,8 @@ Once we've done this, we should be able to run the Processing sketch and it will
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU_BNO08X_Arduino_Processing_Serial_Cube_Visualization.gif"><img src="../assets/img/VR_IMU_BNO08X_Arduino_Processing_Serial_Cube_Visualization.gif" width="600" height="600" alt="Adjusting Processing Example's Serial Port"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU_BNO08X_Arduino_Processing_Serial_Cube_Visualization.gif"><img src="../assets/img/VR_IMU_BNO08X_Arduino_Processing_Serial_Cube_Visualization.gif" width="600" height="600" alt="Adjusting Processing Example's Serial Port"></a></td>
     </tr>
   </table>
 </div>

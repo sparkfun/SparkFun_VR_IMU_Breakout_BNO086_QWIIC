@@ -16,8 +16,8 @@ If you are having problems connecting to the BNO086 and you see the following ou
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Troubleshooting_Error_I2C_Not_Connected.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Troubleshooting_Error_I2C_Not_Connected.JPG" width="600" height="600" alt="Error Not Connected"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Troubleshooting_Error_I2C_Not_Connected.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Troubleshooting_Error_I2C_Not_Connected.JPG" width="600" height="600" alt="Error Not Connected"></a></td>
     </tr>
   </table>
 </div>

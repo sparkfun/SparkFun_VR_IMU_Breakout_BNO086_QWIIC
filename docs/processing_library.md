@@ -20,8 +20,8 @@ Similar to an Arduino Library, there is a [certain file structure that Processin
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/Manual_Install_Processing_Library_toxiclibs.JPG"><img src="../assets/img/Manual_Install_Processing_Library_toxiclibs.JPG" width="600" height="600" alt="Manual Install of the toxiclibs Processing Library"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/Manual_Install_Processing_Library_toxiclibs.JPG"><img src="../assets/img/Manual_Install_Processing_Library_toxiclibs.JPG" width="600" height="600" alt="Manual Install of the toxiclibs Processing Library"></a></td>
     </tr>
   </table>
 </div>

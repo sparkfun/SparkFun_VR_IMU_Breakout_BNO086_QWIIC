@@ -5,8 +5,8 @@ Connecting to the BNO086 breakout is simple. You will just need a powerful micro
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 05.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 05.jpg" height="600px" width="600" alt="Basic Hookup with ESP32, Qwiic cable, and BNO086 Breakout"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 05.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 05.jpg" height="600px" width="600" alt="Basic Hookup with ESP32, Qwiic cable, and BNO086 Breakout"></a></td>
     </tr>
   </table>
 </div>
@@ -99,8 +99,8 @@ The table and image below shows a connection with IC hooks connected. For a more
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 06.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 06.jpg" height="600px" width="600" alt="Hookup with ESP32, Qwiic cable, IC Hooks, and BNO086 Breakoutfor Advanced Configuration"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 06.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 06.jpg" height="600px" width="600" alt="Hookup with ESP32, Qwiic cable, IC Hooks, and BNO086 Breakoutfor Advanced Configuration"></a></td>
     </tr>
   </table>
 </div>

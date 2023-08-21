@@ -12,8 +12,8 @@ You should see an output of the quaternion values (i.e. i, j, k, and real) and t
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex1_Rotation_Vector.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex1_Rotation_Vector.JPG" width="600" height="600" alt="Output Example 1 - Rotation Vector"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex1_Rotation_Vector.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex1_Rotation_Vector.JPG" width="600" height="600" alt="Output Example 1 - Rotation Vector"></a></td>
     </tr>
   </table>
 </div>
@@ -34,8 +34,8 @@ You should see an output of the accelerometer values for x, y, and z in m/s<sup>
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex2_Accelerometer_Gravity.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex2_Accelerometer_Gravity.JPG" width="600" height="600" alt="Output Example 2 - Accelerometer"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex2_Accelerometer_Gravity.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex2_Accelerometer_Gravity.JPG" width="600" height="600" alt="Output Example 2 - Accelerometer"></a></td>
     </tr>
   </table>
 </div>
@@ -56,8 +56,8 @@ You should see the angular velocity for x, y, and z in radians/s. Try rotating t
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro.JPG" width="600" height="600" alt="Output Example 3 - Gyro"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro.JPG" width="600" height="600" alt="Output Example 3 - Gyro"></a></td>
     </tr>
   </table>
 </div>
@@ -66,8 +66,8 @@ Also, check out the values in a graph by opening the Serial Plotter to the same 
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro_Serial_Plotter_Output.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro_Serial_Plotter_Output.JPG" width="600" height="600" alt="Output Example 3 - Gyro through Serial Plotter"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro_Serial_Plotter_Output.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro_Serial_Plotter_Output.JPG" width="600" height="600" alt="Output Example 3 - Gyro through Serial Plotter"></a></td>
     </tr>
   </table>
 </div>
@@ -78,8 +78,8 @@ Also, check out the values in a graph by opening the Serial Plotter to the same 
 
     <div style="text-align: center;">
       <table>
-        <tr align="center">
-         <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro_Serial_Plotter_Output_Older_Arduino_IDE_v1p8p19.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro_Serial_Plotter_Output_Older_Arduino_IDE_v1p8p19.JPG" width="600" height="600" alt="Output Example 3 - Gyro through Serial Plotter using old Arduino IDE v1.8.3"></a></td>
+        <tr style="vertical-align:middle;">
+         <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro_Serial_Plotter_Output_Older_Arduino_IDE_v1p8p19.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex3_Gyro_Serial_Plotter_Output_Older_Arduino_IDE_v1p8p19.JPG" width="600" height="600" alt="Output Example 3 - Gyro through Serial Plotter using old Arduino IDE v1.8.3"></a></td>
         </tr>
       </table>
     </div>
@@ -96,8 +96,8 @@ You should see the magnetometer values for x, y, and z in &micro;Tesla and the a
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex4_Magnetometer.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex4_Magnetometer.JPG" width="600" height="600" alt="Output Example 4 - Magnetometer"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex4_Magnetometer.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex4_Magnetometer.JPG" width="600" height="600" alt="Output Example 4 - Magnetometer"></a></td>
     </tr>
   </table>
 </div>
@@ -121,8 +121,8 @@ Try holding the sensor or attaching to your body while connect to a laptop and w
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex5_StepCounter.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex5_StepCounter.JPG" width="600" height="600" alt="Output Example 5 - Step Counter"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex5_StepCounter.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex5_StepCounter.JPG" width="600" height="600" alt="Output Example 5 - Step Counter"></a></td>
     </tr>
   </table>
 </div>
@@ -143,8 +143,8 @@ Give the BNO086 a second to measure and process the sensor values. The sensor wi
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex6_StabilityClassifier.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex6_StabilityClassifier.JPG" width="600" height="600" alt="Output Example 6 - Stability Classifier"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex6_StabilityClassifier.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex6_StabilityClassifier.JPG" width="600" height="600" alt="Output Example 6 - Stability Classifier"></a></td>
     </tr>
   </table>
 </div>
@@ -167,8 +167,8 @@ Give the BNO086 a second to measure and process the sensor values. The sensor wi
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex7_ActivityClassifier.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex7_ActivityClassifier.JPG" width="600" height="600" alt="Output Example 7 - Activity Classifier"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex7_ActivityClassifier.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex7_ActivityClassifier.JPG" width="600" height="600" alt="Output Example 7 - Activity Classifier"></a></td>
     </tr>
   </table>
 </div>
@@ -237,8 +237,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex8_AdvancedConfiguration.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex8_AdvancedConfiguration.JPG" width="600" height="600" alt="Output Example 8 - Advanced Configuration with Rotation Vector"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex8_AdvancedConfiguration.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex8_AdvancedConfiguration.JPG" width="600" height="600" alt="Output Example 8 - Advanced Configuration with Rotation Vector"></a></td>
     </tr>
   </table>
 </div>
@@ -257,8 +257,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex9_LinearAccelerometer.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex9_LinearAccelerometer.JPG" width="600" height="600" alt="Output Example 9 - Linear Accelerometer"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex9_LinearAccelerometer.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex9_LinearAccelerometer.JPG" width="600" height="600" alt="Output Example 9 - Linear Accelerometer"></a></td>
     </tr>
   </table>
 </div>
@@ -277,8 +277,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex10_Timestamp_and_Rotation_Vector.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex10_Timestamp_and_Rotation_Vector.JPG" width="600" height="600" alt="Output Example 10 - Timestamp"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex10_Timestamp_and_Rotation_Vector.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex10_Timestamp_and_Rotation_Vector.JPG" width="600" height="600" alt="Output Example 10 - Timestamp"></a></td>
     </tr>
   </table>
 </div>
@@ -297,8 +297,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex11_Raw_Readings.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex11_Raw_Readings.JPG" width="600" height="600" alt="Output Example 11 - Raw Readings"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex11_Raw_Readings.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex11_Raw_Readings.JPG" width="600" height="600" alt="Output Example 11 - Raw Readings"></a></td>
     </tr>
   </table>
 </div>
@@ -316,8 +316,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
   <table>
-    <tr align="center">
-     <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex12_Gyro_Integrated_Rotation_Vector.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex12_Gyro_Integrated_Rotation_Vector.JPG" width="600" height="600" alt="Output Example 12 - Gyro Integrated Rotation Vector"></a></td>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex12_Gyro_Integrated_Rotation_Vector.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex12_Gyro_Integrated_Rotation_Vector.JPG" width="600" height="600" alt="Output Example 12 - Gyro Integrated Rotation Vector"></a></td>
     </tr>
   </table>
 </div>
@@ -336,8 +336,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
  <table>
-   <tr align="center">
-    <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex13_Euler_Angles_Pitch_Roll_Yaw.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex13_Euler_Angles_Pitch_Roll_Yaw.JPG" width="600" height="600" alt="Output Example 13 - Euler Angles"></a></td>
+   <tr style="vertical-align:middle;">
+    <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex13_Euler_Angles_Pitch_Roll_Yaw.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex13_Euler_Angles_Pitch_Roll_Yaw.JPG" width="600" height="600" alt="Output Example 13 - Euler Angles"></a></td>
    </tr>
  </table>
 </div>
@@ -356,8 +356,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
  <table>
-   <tr align="center">
-    <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex14_Tare.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex14_Tare.JPG" width="600" height="600" alt="Output Example 14 - Tare"></a></td>
+   <tr style="vertical-align:middle;">
+    <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex14_Tare.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex14_Tare.JPG" width="600" height="600" alt="Output Example 14 - Tare"></a></td>
    </tr>
  </table>
 </div>
@@ -376,8 +376,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
  <table>
-   <tr align="center">
-    <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex15_Gravity.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex15_Gravity.JPG" width="600" height="600" alt="Output Example 15 - Gravity"></a></td>
+   <tr style="vertical-align:middle;">
+    <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex15_Gravity.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex15_Gravity.JPG" width="600" height="600" alt="Output Example 15 - Gravity"></a></td>
    </tr>
  </table>
 </div>
@@ -396,8 +396,8 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 
 <div style="text-align: center;">
  <table>
-   <tr align="center">
-    <td><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex16_Uncalibrated_Gyro.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex16_Uncalibrated_Gyro.JPG" width="600" height="600" alt="Output Example 16 - Uncalibrated Gyro"></a></td>
+   <tr style="vertical-align:middle;">
+    <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex16_Uncalibrated_Gyro.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex16_Uncalibrated_Gyro.JPG" width="600" height="600" alt="Output Example 16 - Uncalibrated Gyro"></a></td>
    </tr>
  </table>
 </div>
