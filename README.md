@@ -14,10 +14,11 @@ Repository Contents
 * **/Documentation** - Datasheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
   * **/Production** - Production panel files (.brd)
- 
+
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_BNO08x_Arduino_Library)** - Arduino library for the BNO086 and variants BNO08X.
+* **[Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/22857-sfe_vr_imu_breakout_bno086_9dof_accelerometer_gyro_magnetometer.fzpz)
 * **[Hookup Guide](https://docs.sparkfun.com/SparkFun_VR_IMU_Breakout_BNO086_QWIIC/introduction/)** - Basic hookup guide for the SparkFun VR IMU Breakout - BNO086.
 
 Product Versions
@@ -26,14 +27,14 @@ Product Versions
 
 Version History
 ---------------
-* v1.0 - Initial release 
+* v1.0 - Initial release
 
 License Information
 -------------------
 
-This product is _**open source**_! 
+This product is _**open source**_!
 
-Please review the LICENSE.md file for license information. 
+Please review the LICENSE.md file for license information.
 
 If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
 

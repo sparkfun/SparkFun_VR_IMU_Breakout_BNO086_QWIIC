@@ -8,6 +8,7 @@ Now that you've successfully got your SparkFun Qwiic VR IMU Breakout (BNO086) up
     * [Migration Guide (PDF)](../assets/component_documentation/BNO080-BNO085-Migration-Guide.pdf)
     * [Tare Function Usage Guide (PDF)](../assets/component_documentation/BNO080-BNO085-Tare-Function-Usage-Guide.pdf)
     * [Sensor Hub Transport Protocol (PDF)](../assets/component_documentation/Sensor-Hub-Transport-Protocol.pdf)
+* [Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/22857-sfe_vr_imu_breakout_bno086_9dof_accelerometer_gyro_magnetometer.fzpz)
 * [Arduino Library](https://github.com/sparkfun/SparkFun_BNO08x_Arduino_Library) - SparkFun's Arduino Library for the BNO08X
 * [Processing Library](https://github.com/postspectacular/toxiclibs/releases/tag/0021) - ToxicLibs v0021
 * [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_VR_IMU_Breakout_BNO086_QWIIC)
