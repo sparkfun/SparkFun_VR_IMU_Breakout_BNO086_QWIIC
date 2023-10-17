@@ -1,15 +1,3 @@
-<!--
-    TODO
-    _?_ Table of characteristics or bullet points?!?
-    ____ Hardware Overview
-        ___ check SPI speed...
-        ___ Arduino Examples
-            ___ SPI?
-            ___ Serial?!? information about the different UARTs types
-    ____ Add note linking both BNO080 to BNO086 tutorials together from old tutorial
-    ____ Adjust align="center"
-
--->
 
 !!!info
     This tutorial is an update to the BNO080. If you are looking for the original tutorial for the BNO080, make sure to head to the [Qwiic VR IMU (BNO080) Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-vr-imu-bno080-hookup-guide). Note that the BNO080 is EOL. Additionally, this tutorial uses a different Arduino Library.
