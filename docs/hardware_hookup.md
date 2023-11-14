@@ -22,7 +22,7 @@ For the advanced configuration examples (i.e. examples 17 and 18) that requires 
 
 The table and image below shows a connection with IC hooks connected. For a more secure connection, we recommending soldering to the connection. You can choose between a combination of [header pins and jumper wires](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all), or [stripping wire and soldering the wire](https://learn.sparkfun.com/tutorials/working-with-wire/all) directly to the board.
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 
 -   <a href="https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all">
       <figure markdown>

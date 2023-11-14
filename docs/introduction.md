@@ -49,7 +49,7 @@ To follow along with this tutorial, you will need the following materials. You m
 * 2x IC Hooks (_optional for advanced configuration_)
     * The pack of 5x [IC Hook with Pigtail [CAB-09741]](https://www.sparkfun.com/products/9741) for a temporary connection
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 
 -   <a href="https://www.sparkfun.com/products/19177">
       <figure markdown>
@@ -135,7 +135,7 @@ For a secure connection when using the advanced configuration, you will need to 
 * [Soldering Iron [TOL-14456]](https://www.sparkfun.com/products/14456)
 * [Solder Lead Free - 15-gram Tube [TOL-9163]](https://www.sparkfun.com/products/9163)
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 
 -   <a href="https://www.sparkfun.com/products/11375">
       <figure markdown>
@@ -217,7 +217,7 @@ If you aren't familiar with the Qwiic Connection System, we recommend reading [h
 
 If you aren’t familiar with the following concepts, we also recommend checking out a few of these tutorials before continuing.
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 
 -   <a href="https://learn.sparkfun.com/tutorials/gyroscope">
       <figure markdown>

@@ -243,7 +243,7 @@ The board is 1.0" x 1.2" (25.4mm x 30.48mm), which is slightly longer than a typ
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/SparkFun_VR_IMU_Breakout_BNO086_Qwiic_Board_Dimension_v10.png"><img src="../assets/img/SparkFun_VR_IMU_Breakout_BNO086_Qwiic_Board_Dimension_v10.png" width="600px" height="600px" alt="Board Dimesions"></a></td>
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/SparkFun_VR_IMU_Breakout_BNO086_Qwiic_Board_Dimension_v10.png"><img src="../assets/img/SparkFun_VR_IMU_Breakout_BNO086_Qwiic_Board_Dimension_v10.png" width="600px" height="600px" alt="Board Dimensions"></a></td>
     </tr>
   </table>
 </div>
