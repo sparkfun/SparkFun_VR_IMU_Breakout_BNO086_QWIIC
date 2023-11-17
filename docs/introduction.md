@@ -128,7 +128,7 @@ To follow along with this tutorial, you will need the following materials. You m
 
 ### Tools
 
-For a secure connection when using the advanced configuration, you will need to solder two wires between your microcontroller and the breakout board. This requires some assembly and soldering. You may already have a few of these items but if not, the tools and hardware below help with that assembly.
+For a secure connection when connecting to the reset and interrupt pins, you will need to solder two wires between your microcontroller and the breakout board. This requires some assembly and soldering. You may already have a few of these items but if not, the tools and hardware below help with that assembly.
 
 * [Hook-Up Wire - Assortment (Stranded, 22 AWG) [PRT-11375]](https://www.sparkfun.com/products/11375)
 * [Wire Stripper - 20-30 AWG Solid (22-32 AWG Stranded) [TOL-22263]](https://www.sparkfun.com/products/22263)

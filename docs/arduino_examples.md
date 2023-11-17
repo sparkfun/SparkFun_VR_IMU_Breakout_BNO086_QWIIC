@@ -228,8 +228,30 @@ This example shows us how to configure the sensor on different addresses and I<s
             <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">SDA</font>
             </td>
         </tr>    
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">A4</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">INT</font>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">A5</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">RST</font>
+            </td>
+        </tr>    
     </table>
 </div>
+
+<div style="text-align: center;">
+  <table>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/SparkFun_RedBoard_IoT_ESP32_BNO086_ALT_I2C_Hookup_bb.jpg"><img src="../assets/img/SparkFun_RedBoard_IoT_ESP32_BNO086_ALT_I2C_Hookup_bb.jpg" height="600px" width="600px" alt="Hookup with ESP32 between the BNO086 using the Alternative I2C Port, Interrupt, and Reset Pins"></a></td>
+    </tr>
+  </table>
+</div>
+
+
 
 Open the example by navigating to **File** > **Examples** > **SparkFun BNO08X Cortex Based IMU** > **Example_08_AdvancedConfig**.
 

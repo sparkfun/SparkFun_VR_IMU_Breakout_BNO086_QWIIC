@@ -1,26 +1,18 @@
-### Connecting via Qwiic
-
-
-Connecting to the BNO086 breakout is simple. You will just need a powerful microcontroller to process the data when using the BNO086 and a Qwiic cable. In this case, we used an ESP32 (we specifically tested the Arduino Library with the SparkFun IoT RedBoard - ESP32). Most of the basic examples in the Library will work in this configuration with the I<sup>2</sup>C protocol.
-
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 05.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 05.jpg" height="600px" width="600px" alt="Basic Hookup with ESP32, Qwiic cable, and BNO086 Breakout"></a></td>
-    </tr>
-  </table>
-</div>
-
-!!!note
+!!! note
     Unfortunately, users are not able to use an Arduino Uno or RedBoard with an ATmega328P due the demands of the BNO086 IC. We recommend using the ESP32.
 
 
 
-### Connecting via Qwiic and the Reset & Interrupt Pins
+### Connecting via Qwiic Port, Reset, & Interrupt Pins
 
-For the advanced configuration examples (i.e. examples 17 and 18) that requires specific timing, you will need to wire up reset and interrupt pins. This can also be a more reliable connection when using the other examples as well. Just make sure to adjust the code similar to the example 17.
+!!! note
+    As of v1.0.3, you will need to wire up the reset and interrupt pins. Using only the I<sup>2</sup>C port was not sufficient enough to get the BNO086 to work reliably with a microcontroller.  
 
-The table and image below shows a connection with IC hooks connected. For a more secure connection, we recommending soldering to the connection. You can choose between a combination of [header pins and jumper wires](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all), or [stripping wire and soldering the wire](https://learn.sparkfun.com/tutorials/working-with-wire/all) directly to the board.
+    The I/O pins have also been changed for the reset and interrupt pins! Make sure to adjust your connections accordingly.
+
+You will need a powerful micrcontroller to process the data when using the BNO086. In this case, we used an ESP32 (we specifically tested the Arduino Library with the SparkFun IoT RedBoard - ESP32). Besides connecting a Qwiic cable, you also need to wire up the reset and interrupt pins. This is a more reliable connection and is recommended.
+
+The table and image below shows the connections between the SparkFun IoT RedBoard - ESP32 and the BNO086. While you can use IC hooks for a temporary connection, we recommending soldering for a secure connection. You can choose between a combination of [header pins and jumper wires](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all), or [stripping wire and soldering the wire](https://learn.sparkfun.com/tutorials/working-with-wire/all) directly to the board.
 
 <div class="grid cards col-4" markdown>
 
@@ -83,13 +75,13 @@ The table and image below shows a connection with IC hooks connected. For a more
             </td>
         </tr>    
         <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">D17</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">A4</font>
             </td>
             <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">INT</font>
             </td>
         </tr>
         <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">D16</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">A5</font>
             </td>
             <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">RST</font>
             </td>
@@ -100,7 +92,7 @@ The table and image below shows a connection with IC hooks connected. For a more
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 06.jpg"><img src="../assets/img/22857-SEN_SparkFun_VR_IMU_Breakout-BNO086_Qwiic- 06.jpg" height="600px" width="600px" alt="Hookup with ESP32, Qwiic cable, IC Hooks, and BNO086 Breakoutfor Advanced Configuration"></a></td>
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/SparkFun_RedBoard_IoT_ESP32_BNO086_I2C_Hookup_bb.jpg"><img src="../assets/img/SparkFun_RedBoard_IoT_ESP32_BNO086_I2C_Hookup_bb.jpg" height="600px" width="600px" alt="Hookup with ESP32 between the BNO086 using the Qwiic Port, Interrupt, and Reset Pins"></a></td>
     </tr>
   </table>
 </div>
@@ -149,13 +141,13 @@ Before connecting, make sure to add a solder jumper on PS1 to configure the boar
             </td>
         </tr>
         <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede">0
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">0</font>
             </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede">1
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">1</font>
             </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede">UART
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">UART</font>
             </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede">Add solder blob to the jumper to set to 1.
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">Add solder blob to the jumper to set to 1.</font>
             </td>
         </tr>
         <tr>
@@ -259,6 +251,9 @@ For users interested in using the [SPI protocol](https://learn.sparkfun.com/tuto
 
 Before connecting, make sure to add a solder jumper on PS0 and PS1 to configure the board for SPI protocol as stated earlier in the Hardware Overview.
 
+!!! note
+    As of v1.0.3, the I/O pins have also been changed for the CS, reset, interrupt pins! Make sure to adjust your connections accordingly.
+
 <div style="text-align: center;">
     <table>
         <tr>
@@ -302,13 +297,13 @@ Before connecting, make sure to add a solder jumper on PS0 and PS1 to configure 
             </td>
         </tr>
         <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede">1
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">1</font>
             </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede">1
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">1</font>
             </td>
-            <td style="text-align: center; border: solid 1px #cccccc; "bgcolor="#f2dede">SPI
+            <td style="text-align: center; border: solid 1px #cccccc; "bgcolor="#f2dede"><font color="#000000">SPI</font>
             </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede">Add solder blob to the jumpers to set to 1.
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">Add solder blob to the jumpers to set to 1.</font>
             </td>
         </tr>
     </table>
@@ -337,7 +332,7 @@ The table below shows how to connect the SparkFun IoT RedBoard - ESP32 to the VR
             </td>
         </tr>
         <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">D25</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">D5</font>
             </td>
             <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">CS</font>
             </td>
@@ -361,13 +356,13 @@ The table below shows how to connect the SparkFun IoT RedBoard - ESP32 to the VR
             </td>
         </tr>    
         <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">D17</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">A4</font>
             </td>
             <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">INT</font>
             </td>
         </tr>
         <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">D16</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">A5</font>
             </td>
             <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">RST</font>
             </td>
