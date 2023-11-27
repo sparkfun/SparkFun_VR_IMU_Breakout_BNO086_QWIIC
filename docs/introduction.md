@@ -124,6 +124,10 @@ To follow along with this tutorial, you will need the following materials. You m
 
 </div>
 
+!!! note
+    As of Arduino Library v1.0.3, the BNO086 has also been tested to work with a SAMD51 (i.e. [SparkFun Thing Plus - SAMD51](https://www.sparkfun.com/products/14713)) as well!
+
+
 
 
 ### Tools

@@ -4,6 +4,11 @@ This section is a fun bonus example that rotates a cube in Processing based on t
 
 
 
+!!! note
+   The modified Arduino example has been updated to reflect the changes in Arduino Library v1.0.3.
+
+
+
 ### Upload Modified Arduino Example 1's Rotation Vector
 
 Processing listens for serial data, so we'll need to get our Arduino (i.e. RedBoard IoT - ESP32) producing serial data that makes sense to Processing. For this case, we will be using the example 1's rotation vector. However, we will be modifying it by sending only the comma seperated values to the serial port.

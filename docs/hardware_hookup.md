@@ -1,6 +1,7 @@
 !!! note
     Unfortunately, users are not able to use an Arduino Uno or RedBoard with an ATmega328P due the demands of the BNO086 IC. We recommend using the ESP32.
 
+    The Arduino Library was also tested to work with the SAMD51 as well! The pin connections between the microcontroller and sensor are the same, just make sure to reference the port name rather than the specific Arduino pin number. Make sure to also install the Arduino SAMD core and select the correct board definition.
 
 
 ### Connecting via Qwiic Port, Reset, & Interrupt Pins
@@ -10,7 +11,7 @@
 
     The I/O pins have also been changed for the reset and interrupt pins! Make sure to adjust your connections accordingly.
 
-You will need a powerful micrcontroller to process the data when using the BNO086. In this case, we used an ESP32 (we specifically tested the Arduino Library with the SparkFun IoT RedBoard - ESP32). Besides connecting a Qwiic cable, you also need to wire up the reset and interrupt pins. This is a more reliable connection and is recommended.
+You will need a powerful microcontroller to process the data when using the BNO086. In this case, we used an ESP32 (we specifically tested the Arduino Library with the SparkFun IoT RedBoard - ESP32). Besides connecting a Qwiic cable, you also need to wire up the reset and interrupt pins. This is a more reliable connection and is recommended.
 
 The table and image below shows the connections between the SparkFun IoT RedBoard - ESP32 and the BNO086. While you can use IC hooks for a temporary connection, we recommending soldering for a secure connection. You can choose between a combination of [header pins and jumper wires](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all), or [stripping wire and soldering the wire](https://learn.sparkfun.com/tutorials/working-with-wire/all) directly to the board.
 

@@ -10,7 +10,9 @@
 
     ### Board Definitions
 
-    For the scope of this tutorial, we will be using the [SparkFun IoT RedBoard - ESP32 Development Board](https://learn.sparkfun.com/tutorials/iot-redboard-esp32-development-board-hookup-guide). If you have not installed a board definition before, please review the following tutorial as well.
+    For the scope of this tutorial, we will be using the [SparkFun IoT RedBoard - ESP32 Development Board](https://learn.sparkfun.com/tutorials/iot-redboard-esp32-development-board-hookup-guide). This Library also works with the SAMD51. For users that decide to use the SAMD51, make sure to use the [Arduino SAMD Core and SparkFun SAMD boards](https://learn.sparkfun.com/tutorials/samd51-thing-plus-hookup-guide/setting-up-the-arduino-ide) before selecting the SAMD51 board definition.
+
+    If you have not installed a board definition before, please review the following tutorial as well.
 
     - [Installing Board Definitions in the Arduino IDE](https://learn.sparkfun.com/tutorials/installing-board-definitions-in-the-arduino-ide)
 

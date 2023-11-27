@@ -3,11 +3,11 @@
 
   This example shows how to output the i/j/k/real parts of the rotation vector.
   https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation
-  
+
   Note that this is a modified example which comments out unnecessary Serial Prints
   so that we can simply output the comma separated values of the rotation vector
   for the Processing demo "Serial_Cube_Rotate.pde".
-
+  
   By: Nathan Seidle
   SparkFun Electronics
   Date: December 21st, 2017
@@ -29,7 +29,15 @@
   https://github.com/adafruit/Adafruit_BusIO
 
   Hardware Connections:
-  Plug the sensor into IoT RedBoard via QWIIC cable.
+  IoT RedBoard --> BNO08x
+  QWIIC --> QWIIC
+  A4  --> INT
+  A5  --> RST
+
+  BNO08x "mode" jumpers set for I2C (default):
+  PSO: OPEN
+  PS1: OPEN
+
   Serial.print it out at 115200 baud to serial monitor.
 
   Feel like supporting our work? Buy a board from SparkFun!
@@ -38,37 +46,57 @@
 
 #include <Wire.h>
 
-#include "SparkFun_BNO08x_Arduino_Library.h"  // Click here to get the library: http://librarymanager/All#SparkFun_BNO08x
+#include "SparkFun_BNO08x_Arduino_Library.h"  // CTRL+Click here to get the library: http://librarymanager/All#SparkFun_BNO08x
 BNO08x myIMU;
+
+// For the most reliable interaction with the SHTP bus, we need
+// to use hardware reset control, and to monitor the H_INT pin.
+// The H_INT pin will go low when its okay to talk on the SHTP bus.
+// Note, these can be other GPIO if you like.
+// Define as -1 to disable these features.
+#define BNO08X_INT  A4
+//#define BNO08X_INT  -1
+#define BNO08X_RST  A5
+//#define BNO08X_RST  -1
+
+#define BNO08X_ADDR 0x4B  // SparkFun BNO08x Breakout (Qwiic) defaults to 0x4B
+//#define BNO08X_ADDR 0x4A // Alternate address if ADR jumper is closed
 
 void setup() {
   Serial.begin(9600); //115200 baud seems to be too much for Processing?... 9600 baud seems better
+  
+  //while(!Serial) delay(10); // Wait for Serial to become available.
+  // Necessary for boards with native USB (like the SAMD51 Thing+).
+  // For a final version of a project that does not need serial debug (or a USB cable plugged in),
+  // Comment out this while loop, or it will prevent the remaining code from running.
+  
   //Serial.println();
   //Serial.println("BNO08x Read Example");
 
   Wire.begin();
 
-  if (myIMU.begin() == false) {
-    //Serial.println("BNO08x not detected at default I2C address. Check your jumpers and the hookup guide. Freezing...");
+  //if (myIMU.begin() == false) {  // Setup without INT/RST control (Not Recommended)
+  if (myIMU.begin(BNO08X_ADDR, Wire, BNO08X_INT, BNO08X_RST) == false) {
+    Serial.println("BNO08x not detected at default I2C address. Check your jumpers and the hookup guide. Freezing...");
     while (1)
       ;
   }
-  //Serial.println("BNO08x found!");
+  Serial.println("BNO08x found!");
 
   // Wire.setClock(400000); //Increase I2C data rate to 400kHz
 
   setReports();
 
-  //Serial.println("Reading events");
+  Serial.println("Reading events");
   delay(100);
 }
 
 // Here is where you define the sensor outputs you want to receive
 void setReports(void) {
-  //Serial.println("Setting desired reports");
+  Serial.println("Setting desired reports");
   if (myIMU.enableRotationVector() == true) {
     //Serial.println(F("Rotation vector enabled"));
-    //Serial.println(F("Output in form i, j, k, real, accuracy"));
+    //Serial.println(F("Output in form real, i, j, k, accuracy"));
   } else {
     //Serial.println("Could not enable rotation vector");
   }
@@ -94,15 +122,14 @@ void loop() {
       float quatReal = myIMU.getQuatReal();
       float quatRadianAccuracy = myIMU.getQuatRadianAccuracy();
 
-      
-      Serial.print(quatReal, 2);  //<==move these two lines of code 
-      Serial.print(F(","));       //   for Processing
+      Serial.print(quatReal, 2); //<==move these two lines of code
+      Serial.print(F(","));      //   for Processing
       Serial.print(quatI, 2);
       Serial.print(F(","));
       Serial.print(quatJ, 2);
       Serial.print(F(","));
       Serial.print(quatK, 2);
-      // Serial.print(F(","));
+      //Serial.print(F(","));
       //Serial.print(quatRadianAccuracy, 2);
 
       Serial.println();

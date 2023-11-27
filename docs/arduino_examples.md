@@ -1,5 +1,13 @@
 Now that we have our library installed, we can get started playing around with our examples to learn more about how the IMU behaves. From there we'll be able to build our own custom code to integrate the sensor into a project.
 
+!!! note
+    As of Arduino Library v1.0.3, the following line of code has been included for microcontrollers with built-in native USB (i.e. the SAMD51). This can be commented out when using the BNO086 in projects that are not using a Serial Terminal.
+
+    <pre><code class="language-c">while(!Serial) delay(10); // Wait for Serial to become available.
+    // Necessary for boards with native USB (like the SAMD51 Thing+).
+    // For a final version of a project that does not need serial debug (or a USB cable plugged in),
+    // Comment out this while loop, or it will prevent the remaining code from running.</code></pre>
+
 
 
 ### Example 1 - Rotation Vector
