@@ -328,7 +328,7 @@ Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex11_Raw_Readings.JPG"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex11_Raw_Readings.JPG" width="600px" height="600px" alt="Output Example 11 - Raw Readings"></a></td>
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU-BNO086_Arduino_Ex11_Raw_Readings_v2.png"><img src="../assets/img/VR_IMU-BNO086_Arduino_Ex11_Raw_Readings_v2.png" width="600px" height="600px" alt="Output Example 11 - Raw Readings"></a></td>
     </tr>
   </table>
 </div>
