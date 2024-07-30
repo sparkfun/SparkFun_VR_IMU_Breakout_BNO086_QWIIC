@@ -381,7 +381,7 @@ The table below shows how to connect the SparkFun IoT RedBoard - ESP32 to the VR
 </div>
 
 !!! note
-    For users that are using a MicroMod Machine Learning Board with an MicroMod Artemis Processor, you will need to redefine a few pins. We recommend redefining the following pins in the example code.
+    For users that are connecting the BNO086 to a MicroMod Machine Learning Board and MicroMod Artemis Processor, you will need to redefine a few pins. We recommend redefining the following pins in the example code.
 
     ``` c++
     #define BNO08X_CS   PWM0
@@ -397,4 +397,4 @@ The table below shows how to connect the SparkFun IoT RedBoard - ESP32 to the VR
     #define BNO08X_RST  D1
     ```
 
-    Additionally, A0 and A1 are meant to be only used as input pins and for ADC. THe MicroMod Artemis Processor has op amps and scaling from 3.3V to 3V on both of those analog pins.
+    Additionally, A0 and A1 are meant to be only used as input pins and for ADC. The MicroMod Artemis Processor has op amps and scaling from 3.3V to 3V on both of those analog pins.
