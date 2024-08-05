@@ -1,21 +1,21 @@
-This section is a fun bonus example that rotates a cube in Processing based on the BNO086's sensor rotation vector's readings. This extra example is not included in the SparkFun VR IMU BNO08X Arduino Library as it requires Processing. To grab it, go ahead and download or clone the [SparKFun VR IMU Breakout BNO086 QWIIC hardware repo](https://github.com/sparkfun/SparkFun_VR_IMU_Breakout_BNO086_QWIIC).
+This section is a fun bonus example that rotates a cube in Processing based on the BNO086's sensor rotation vector's readings. This extra example is not included in the SparkFun VR IMU BNO08X Arduino Library as it requires Processing. To grab it, go ahead and download or clone the [SparkFun VR IMU Breakout BNO086 QWIIC hardware repo](https://github.com/sparkfun/SparkFun_VR_IMU_Breakout_BNO086_QWIIC).
 
 <div style="text-align: center"><a href="https://github.com/sparkfun/SparkFun_VR_IMU_Breakout_BNO086_QWIIC/archive/refs/heads/main.zip" target="download_BNO086_hardware_repo" class="md-button">Download SparkFun VR IMU Breakout - BNO086 Qwiic GitHub Hardware Repo (ZIP)</a></div>
 
 
 
 !!! note
-   The modified Arduino example has been updated to reflect the changes in Arduino Library v1.0.3.
+    The modified Arduino example has been updated to reflect the changes in Arduino Library v1.0.3.
 
 
 
 ### Upload Modified Arduino Example 1's Rotation Vector
 
-Processing listens for serial data, so we'll need to get our Arduino (i.e. RedBoard IoT - ESP32) producing serial data that makes sense to Processing. For this case, we will be using the example 1's rotation vector. However, we will be modifying it by sending only the comma seperated values to the serial port.
+Processing listens for serial data, so we'll need to get our Arduino (i.e. RedBoard IoT - ESP32) to produce serial data that makes sense to Processing. For this case, we will be using the example 1's rotation vector. However, we will be modifying it by sending only the comma separated values to the serial port.
 
 After unzipping the compressed files, navigate to the hardware repo's folder and open the example: ... **SparkFun_VR_IMU_Breakout_BNO086_QWIIC** > **Software** > **Arduino** > **Example_01_RotationVector_MOD** > **Example_01_RotationVector_MOD.ino**. This modified sketch simply prints a list of our quaternions separated by a comma over serial for Processing to listen to. You will also notice that the sequence of values is adjusted slightly for the Processing by moving the Real before the real value before i, j, and k. We also adjusted the baud rate to allow Processing some time to process the data.
 
-Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**) and the correct Port it enumerated on and click "Upload". After uploading the code, open the [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics) or terminal emulator of your choice with the baud rate set to **9600**.
+Select your board in the Tools menu (in our case **SparkFun ESP32 IoT RedBoard**) and the correct Port it enumerated on. Then click "Upload". After uploading the code, open the [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics) or terminal emulator of your choice with the baud rate set to **9600**.
 
 <div style="text-align: center;">
   <table>
@@ -52,7 +52,7 @@ Once we've done this, we should be able to run the Processing sketch and it will
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU_BNO08X_Arduino_Processing_Serial_Cube_Visualization.gif"><img src="../assets/img/VR_IMU_BNO08X_Arduino_Processing_Serial_Cube_Visualization.gif" width="600px" height="600px" alt="Adjusting Processing Example's Serial Port"></a></td>
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/VR_IMU_BNO08X_Arduino_Processing_Serial_Cube_Visualization.gif"><img src="../assets/img/VR_IMU_BNO08X_Arduino_Processing_Serial_Cube_Visualization.gif" width="600px" height="600px" alt="Processing Example with Nick Poole Rotating the VR IMU"></a></td>
     </tr>
   </table>
 </div>
